@@ -11,7 +11,7 @@ const run = () => {
 
     
     if(valueDoor === "open" && valueSausage === "take-out") {
-        elStatus.innerHTML = 'You too the sausege.';
+        elStatus.innerHTML = 'You took the sausage.';
         return;
     }
     if(valueDoor === "open" && valueSausage === "put-back") {
